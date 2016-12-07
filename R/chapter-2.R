@@ -25,7 +25,7 @@
 #'  \item{region}{Region, one of: Asia, Africa, Europe, Americas, Antarctica, Seven seas (open ocean), Oceania.}
 #'  \item{subregion}{Sub-region.}
 #' }
-#' @seealso \code{\link{countries_spdf}}, \code{\link{tiny_countries_spdf}}
+#' @seealso \code{\link{countries_sp}}, \code{\link{tiny_countries_spdf}}
 #' @source \url{https://github.com/ropenscilabs/rnaturalearth}
 #' @source \url{http://naturalearthdata.com}
 "countries_spdf"
@@ -47,7 +47,7 @@
 #'  \item{region}{Region, one of: Asia, Africa, Europe, Americas, Antarctica, Seven seas (open ocean), Oceania.}
 #'  \item{subregion}{Sub-region.}
 #' }
-#' @seealso \code{\link{countries_spdf}}, \code{\link{tiny_countries_spdf}}
+#' @seealso \code{\link{countries_spdf}}, \code{\link{countries_sp}}
 #' @source \url{https://github.com/ropenscilabs/rnaturalearth}
 #' @source \url{http://naturalearthdata.com}
 "tiny_countries_spdf"
