@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Don't commit downloaded data files, or intermediate .rds
+data-raw/*.xls
+data-raw/*.rds
+data-raw/Boundary
