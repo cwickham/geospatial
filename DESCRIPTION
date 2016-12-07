@@ -1,0 +1,13 @@
+Package: geospatial
+Type: Package
+Title: Datasets from the DataCamp course "Working with Geospatial Data in R"
+Version: 0.1.0
+Authors@R: c(
+    person("Charlotte", "Wickham", , "cwickham@gmail.com", role = c("aut", "cre"))
+  )
+Description: Provides the datasets used as examples in the DataCamp course
+    "Working with Geospatial Data in R" so you can follow along outside of the
+    datacamp platform.  
+License: CC0
+Encoding: UTF-8
+LazyData: true
