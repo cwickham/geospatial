@@ -22,7 +22,7 @@
  \item{full_baths}{Number of full bathrooms.}
  \item{half_baths}{Number of half bathrooms.}
  \item{month}{Month of sale.}
- \item{address_city}{Address including city.}
+ \item{address_city}{Address used for geo-coding.}
 }}
 \source{
 \url{https://www.co.benton.or.us/assessment/page/property-sales-data}

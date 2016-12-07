@@ -19,3 +19,13 @@ library(geospatial)
 head(sales)  # Chapter 1 sales data
 ```
 
+## Contents
+
+This package is currently under development, and so far only contains the data
+sets listed below.
+
+Chapter 1:
+
+* `sales` - point data on sales in Corvallis
+* `ward_sales` - sales summarized at the ward level
+* `preds` - a grid of predictions over Corvallis
