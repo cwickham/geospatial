@@ -95,5 +95,3 @@
 #' @source \url{ftp://ftp.ci.corvallis.or.us/pw/gis/Published/Dynamic/Shapefile/Boundary.zip}
 #' @source \url{https://www.co.benton.or.us/assessment/page/property-sales-data}
 "ward_sales"
-
-"ward_sales"

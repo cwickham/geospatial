@@ -29,3 +29,14 @@ Chapter 1:
 * `sales` - point data on sales in Corvallis
 * `ward_sales` - sales summarized at the ward level
 * `preds` - a grid of predictions over Corvallis
+
+Chapter 2:
+
+* `countries_sp`
+* `countries_spdf`
+* `tiny_countries_spdf`
+
+## Data generation
+
+If you are interested in how the data sets were constructed you'll find the
+scripts in the `data-raw` directory.

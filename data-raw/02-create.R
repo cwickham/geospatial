@@ -2,7 +2,6 @@
 
 library(sp)
 library(rnaturalearth)
-library(gapminder)
 library(dplyr)
 
 ne_world <- ne_countries()
@@ -43,6 +42,6 @@ countries_sp <- geometry(ne_world)
 countries_spdf <- ne_world
 tiny_countries_spdf <- ne_tiny
 
-devtools::use_data(countries_sp)
-devtools::use_data(countries_spdf)
-devtools::use_data(tiny_countries_spdf)
+devtools::use_data(countries_sp, overwrite = TRUE)
+devtools::use_data(countries_spdf, overwrite = TRUE)
+devtools::use_data(tiny_countries_spdf, overwrite = TRUE)
