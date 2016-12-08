@@ -21,7 +21,7 @@ head(sales)  # Chapter 1 sales data
 
 ## Contents
 
-This package is currently under development, and so far only contains the data
+This package contains the data
 sets listed below.
 
 Chapter 1:
@@ -42,7 +42,14 @@ Chapter 3:
 * `pop_by_age`
 * `prop_by_age`
 * `migration`
-* `land_cover` imported from `tmap`
+* `land_cover` 
+
+Chapter 4:
+
+* `neighborhoods`
+* `nyc_income`
+* `water`
+* `income_grid`
 
 ## Data generation
 

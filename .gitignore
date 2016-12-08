@@ -7,3 +7,5 @@
 data-raw/*.xls
 data-raw/*.rds
 data-raw/Boundary
+data-raw/nywater
+data-raw/nynta_16c
