@@ -28,7 +28,7 @@ each country. The polygons and data come from
 and tidy some variables.
 }
 \seealso{
-\code{\link{countries_spdf}}, \code{\link{tiny_countries_spdf}}
+\code{\link{countries_sp}}, \code{\link{tiny_countries_spdf}}
 }
 \keyword{datasets}
 

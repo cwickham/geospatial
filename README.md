@@ -36,6 +36,14 @@ Chapter 2:
 * `countries_spdf`
 * `tiny_countries_spdf`
 
+Chapter 3:
+
+* `pop`
+* `pop_by_age`
+* `prop_by_age`
+* `migration`
+* `landcover` imported from `tmap`
+
 ## Data generation
 
 If you are interested in how the data sets were constructed you'll find the
