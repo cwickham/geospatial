@@ -2,7 +2,7 @@
 
 [![Travis-CI Build Status](https://travis-ci.org/cwickham/geospatial.svg?branch=master)](https://travis-ci.org/cwickham/geospatial)
 
-An R package with the data sets used in the DataCamp course [Working with Geospatial Data in R](https://www.datacamp.com/courses/working-with-geospatial-data-in-r).
+An R package with the data sets used in the [DataCamp](www.datacamp.com) course [Working with Geospatial Data in R](https://www.datacamp.com/courses/working-with-geospatial-data-in-r). 
 
 ## Installation
 
@@ -15,10 +15,17 @@ devtools::install_github("cwickham/geospatial")
 
 ## Usage
 
+Datasets in this package have the same names as those in the course.  For example, 
+to replicate the very first plot in the first video:
+
 ```R
 library(geospatial)
+library(ggplot2)
 ?sales # Chapter 1 sales data
-head(sales)  
+head(sales)
+
+ggplot(sales, aes(lon, lat)) + 
+  geom_point()
 ```
 
 ## Contents
