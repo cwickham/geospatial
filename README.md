@@ -1,5 +1,7 @@
 # geospatial
 
+[![Travis-CI Build Status](https://travis-ci.org/cwickham/geospatial.svg?branch=master)](https://travis-ci.org/cwickham/geospatial)
+
 An R package with the data sets used in the DataCamp course [Working with Geospatial Data in R](https://www.datacamp.com/courses/working-with-geospatial-data-in-r).
 
 ## Installation
