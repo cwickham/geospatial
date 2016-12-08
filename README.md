@@ -42,7 +42,7 @@ Chapter 3:
 * `pop_by_age`
 * `prop_by_age`
 * `migration`
-* `landcover` imported from `tmap`
+* `land_cover` imported from `tmap`
 
 ## Data generation
 

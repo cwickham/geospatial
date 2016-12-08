@@ -93,3 +93,7 @@ migration <- migration_us
 devtools::use_data(migration, overwrite = TRUE)
 
 
+# grabbing land cover from tmap -------------------------------------------
+data(land, package = "tmap")
+land_cover <- land
+use_data(land_cover)

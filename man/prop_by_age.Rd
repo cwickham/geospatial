@@ -31,12 +31,7 @@ Seirup, L., and G. Yetman. 2006. U.S. Census Grids (Summary File 1), 2000. Palis
 prop_by_age
 }
 \description{
-Gridded population data obtained from NASA Socioeconomic Data and Applications
-Center (SEDAC).  Population comes from the U.S. Census Grids (Summary File 1), 2000
-subsetted to the North East of the U.S.A (latitude within (39, 43) and
-and longitude within (-75, -69.5)). Absolute counts for each age group were
-converted to proportions by dividing each age group count by the sum of the
-counts across age group, on a per grid cell basis.
+Gridded population data obtained from NASA Socioeconomic Data and Applications Center (SEDAC).  Population comes from the U.S. Census Grids (Summary File 1), 2000 subsetted to the North East of the U.S.A (latitude within (39, 43) and longitude within (-75, -69.5)). Absolute counts for each age group were converted to proportions by dividing each age group count by the sum of the counts across age group, on a per grid cell basis.
 }
 \seealso{
 \code{\link{pop}}, \code{\link{pop_by_age}}

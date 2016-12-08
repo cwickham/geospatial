@@ -1,9 +1,6 @@
 #' Population across North East USA
 #'
-#' Gridded population data obtained from NASA Socioeconomic Data and Applications
-#' Center (SEDAC).  Population comes from the U.S. Census Grids (Summary File 1), 2000
-#' subsetted to the North East of the U.S.A (latitude within (39, 43) and
-#' and longitude within (-75, -69.5)).
+#' Gridded population data obtained from NASA Socioeconomic Data and Applications  Center (SEDAC).  Population comes from the U.S. Census Grids (Summary File 1), 2000 subsetted to the North East of the U.S.A (latitude within (39, 43) and longitude within (-75, -69.5)).
 #'
 #' @format RasterLayer with 480 rows and 660 columns on one variable: \code{num_people}
 #' the estimated absolute number of people living in the grid cell.
@@ -14,10 +11,7 @@
 
 #' Population across North East USA by age group
 #'
-#' Gridded population data obtained from NASA Socioeconomic Data and Applications
-#' Center (SEDAC).  Population comes from the U.S. Census Grids (Summary File 1), 2000
-#' subsetted to the North East of the U.S.A (latitude within (39, 43) and
-#' and longitude within (-75, -69.5)).
+#' Gridded population data obtained from NASA Socioeconomic Data and Applications  Center (SEDAC).  Population comes from the U.S. Census Grids (Summary File 1), 2000  subsetted to the North East of the U.S.A (latitude within (39, 43) and longitude within (-75, -69.5)).
 #'
 #' @format RasterStack with 480 rows and 660 columns, and 7 layers:
 #' \describe{
@@ -43,12 +37,7 @@
 
 #' Population proportions across North East USA by age group
 #'
-#' Gridded population data obtained from NASA Socioeconomic Data and Applications
-#' Center (SEDAC).  Population comes from the U.S. Census Grids (Summary File 1), 2000
-#' subsetted to the North East of the U.S.A (latitude within (39, 43) and
-#' and longitude within (-75, -69.5)). Absolute counts for each age group were
-#' converted to proportions by dividing each age group count by the sum of the
-#' counts across age group, on a per grid cell basis.
+#' Gridded population data obtained from NASA Socioeconomic Data and Applications Center (SEDAC).  Population comes from the U.S. Census Grids (Summary File 1), 2000 subsetted to the North East of the U.S.A (latitude within (39, 43) and longitude within (-75, -69.5)). Absolute counts for each age group were converted to proportions by dividing each age group count by the sum of the counts across age group, on a per grid cell basis.
 #'
 #' @format RasterStack with 480 rows and 660 columns, and 7 layers:
 #' \describe{
@@ -89,4 +78,11 @@
 #' @source \url{http://sedac.ciesin.columbia.edu/data/set/popdynamics-global-est-net-migration-grids-1970-2000}
 "migration"
 
-#' @importFrom tmap landcover
+#' Global Land Cover
+#'
+#' Data directly from the tmap package using \code{data(land, package = "tmap")}.
+#' See \code{\link[tmap]{land}} for details, but note in particular that publication of these maps is only allowed when cited to Tateishi et al. (2014), and when "Geospatial Information Authority of Japan, Chiba University and collaborating organizations." is shown. See \url{http://www.iscgm.org/gm/glcnmo.html#use}."
+#' @format An object of class SpatialGridDataFrame with 583200 cells and 4 variables.
+#' @source tmap package \url{https://CRAN.R-project.org/package=tmap}
+"land_cover"
+

@@ -30,10 +30,7 @@ Seirup, L., and G. Yetman. 2006. U.S. Census Grids (Summary File 1), 2000. Palis
 pop_by_age
 }
 \description{
-Gridded population data obtained from NASA Socioeconomic Data and Applications
-Center (SEDAC).  Population comes from the U.S. Census Grids (Summary File 1), 2000
-subsetted to the North East of the U.S.A (latitude within (39, 43) and
-and longitude within (-75, -69.5)).
+Gridded population data obtained from NASA Socioeconomic Data and Applications  Center (SEDAC).  Population comes from the U.S. Census Grids (Summary File 1), 2000  subsetted to the North East of the U.S.A (latitude within (39, 43) and longitude within (-75, -69.5)).
 }
 \seealso{
 \code{\link{pop}}, \code{\link{prop_by_age}}
