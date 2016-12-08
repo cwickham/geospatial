@@ -15,14 +15,14 @@ devtools::install_github("cwickham/geospatial")
 
 ```R
 library(geospatial)
-?sales
-head(sales)  # Chapter 1 sales data
+?sales # Chapter 1 sales data
+head(sales)  
 ```
 
 ## Contents
 
-This package contains the data
-sets listed below.
+This package contains the data sets corresponding to each chapter in the course
+as listed below.
 
 Chapter 1:
 
@@ -50,6 +50,11 @@ Chapter 4:
 * `nyc_income`
 * `water`
 * `income_grid`
+
+## Citations
+
+If you use the data in this package please cite both this package and 
+the original data source as listed in the relevant help file.
 
 ## Data generation
 
