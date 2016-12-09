@@ -36,7 +36,7 @@ Sales of houses in Corvallis, OR, USA in 2015 as provided by Benton County.
 \details{
 This is a subset of all sales that:
 \itemize{
-  \item{occured within a limited city bounding box: Latitude in (44.52538, 44.60366)
+  \item{occurred within a limited city bounding box: Latitude in (44.52538, 44.60366)
   Longitude in (-123.316845, -123.20698),}
   \item{had a sales price greater than $0,}
   \item{had a reported city of Corvallis, and}

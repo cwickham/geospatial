@@ -4,7 +4,7 @@
 #'
 #' This is a subset of all sales that:
 #' \itemize{
-#'   \item{occured within a limited city bounding box: Latitude in (44.52538, 44.60366)
+#'   \item{occurred within a limited city bounding box: Latitude in (44.52538, 44.60366)
 #'   Longitude in (-123.316845, -123.20698),}
 #'   \item{had a sales price greater than $0,}
 #'   \item{had a reported city of Corvallis, and}
@@ -67,7 +67,7 @@
 #' House sales in Corvallis summarized to the ward level.
 #'
 #' Wards describe roughly equal population subdivisions of the city that are each
-#' represented by a councillor on the Corvallis City Council.  Sales are assigned
+#' represented by a councilor on the Corvallis City Council.  Sales are assigned
 #' to each ward and then summarized. The sales included are those that satisfy:
 #' \itemize{
 #'   \item{had a sales price greater than $0,}

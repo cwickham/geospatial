@@ -27,7 +27,7 @@ House sales in Corvallis summarized to the ward level.
 }
 \details{
 Wards describe roughly equal population subdivisions of the city that are each
-represented by a councillor on the Corvallis City Council.  Sales are assigned
+represented by a councilor on the Corvallis City Council.  Sales are assigned
 to each ward and then summarized. The sales included are those that satisfy:
 \itemize{
   \item{had a sales price greater than $0,}

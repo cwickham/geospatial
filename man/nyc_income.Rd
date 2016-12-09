@@ -22,7 +22,7 @@ acs pacakge \url{https://CRAN.R-project.org/package=acs}
 nyc_income
 }
 \description{
-Income data comes from the American Community Survey via the \code{acs} pacakge. Specfically, the ACS 5-year estimates ending in 2014, for Table B19013: Median Household Income in the Past 12 Months (in 2014 Inflation-Adjusted Dollars), for tracts in New York County.
+Income data comes from the American Community Survey via the \code{acs} package. Specfically, the ACS 5-year estimates ending in 2014, for Table B19013: Median Household Income in the Past 12 Months (in 2014 Inflation-Adjusted Dollars), for tracts in New York County.
 }
 \seealso{
 \code{\link{neighborhoods}}, \code{\link{water}}, \code{\link{income_grid}}

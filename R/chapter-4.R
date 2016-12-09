@@ -1,6 +1,6 @@
 #' Median Income in NYC census tracts
 #'
-#' Income data comes from the American Community Survey via the \code{acs} pacakge. Specfically, the ACS 5-year estimates ending in 2014, for Table B19013: Median Household Income in the Past 12 Months (in 2014 Inflation-Adjusted Dollars), for tracts in New York County.
+#' Income data comes from the American Community Survey via the \code{acs} package. Specfically, the ACS 5-year estimates ending in 2014, for Table B19013: Median Household Income in the Past 12 Months (in 2014 Inflation-Adjusted Dollars), for tracts in New York County.
 #'
 #' @format data.frame with 288 rows and 6 variables:
 #' \describe{
